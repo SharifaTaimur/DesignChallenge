@@ -1,0 +1,27 @@
+.mainCharts {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.row {
+  display: flex;
+}
+
+.chart {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 5px;
+}
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+.welcomeMessage {
+  color: red;
+  text-align: left;
+}

@@ -1,0 +1,81 @@
+.headerContainer {
+  background: #f7f7f7;
+  border: 1px;
+  border-radius: 10px;
+  margin: 20px;
+  height: 75px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.headerPanel {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: 90%;
+}
+
+.searchIcon {
+  margin: 0 8px;
+}
+
+.searchInput {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.bellIcon {
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+.avatarContainer {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.username {
+  font-weight: bold;
+  color: #333;
+}
+
+.user {
+  display: flex;
+  margin-right: 3px;
+}
+
+.topContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.charts {
+  display: flex;
+}
+
+@media (max-width: 1000px) {
+  .charts {
+    flex-direction: column;
+  }
+}
