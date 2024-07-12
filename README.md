@@ -1,3 +1,6 @@
+
+Certainly! Here's a basic template for a README file to explain how to run a typical ReactJS project:
+
 ReactJS Project
 This project was bootstrapped with Create React App.
 
@@ -19,7 +22,7 @@ Navigate into the project directory:
 
 bash
 Copy code
-cd <project-folder>
+cd design
 Install dependencies using npm or yarn:
 
 bash
